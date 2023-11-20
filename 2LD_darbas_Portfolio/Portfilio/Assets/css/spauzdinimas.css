@@ -1,0 +1,113 @@
+@media print {
+    body {
+      font-family: serif;
+    }
+    #navbar{
+        display: none;
+    }
+    .sekcija {
+      page-break-inside: avoid;
+    }
+    img {
+      display: block;
+      margin: 10px 0;
+      max-width: auto;
+      height: 300;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+      .sekcija {
+        font-family: Arial, sans-serif;
+        color: rgb(77, 77, 77);
+        justify-content: left;
+      }
+      
+      .header {
+        font-size: 28px;
+        margin: 100px 60px 20px 60px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: left;
+        background-color: rgb(241, 241, 241);
+      }
+      
+      .content-wrapper {
+        display: flex;
+        justify-content: left;
+      }
+      
+      #aboutimg {
+        margin-right: 80px;
+        margin-top: 20px;
+      }
+      
+      #apielist {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+        list-style: square;
+      }
+      #apie_aprasymas {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      
+      .resume-wrapper {
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        align-items: center;
+      }
+      #resumeimg {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      
+      .resume-details {
+        margin-left: 20px;
+      }
+      .portfoliodarbai {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+        list-style: square;
+        padding: 30px;
+      }
+      .portfoliodarbai img {
+        margin: 10px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      #portfoliocom {
+        display: flex;
+        justify-content: left;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      
+      .paslaugos-wrapper {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+      }
+      
+      .service-item {
+
+        max-width: none; 
+        margin-bottom: 20px; 
+      }
+       #muzika {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+      }
+      
+  }

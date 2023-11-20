@@ -122,3 +122,6 @@
   display: flex;
   text-align: center;
 }
+#printas{
+  float: right;
+}
