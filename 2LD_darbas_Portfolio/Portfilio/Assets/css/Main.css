@@ -1,0 +1,124 @@
+#navbar {
+  position: fixed;
+  top: 200px;
+  background-color: rgb(236, 236, 236);
+  padding: 30px 0px 30px 0px;
+  border-radius: 30px;
+}
+#navlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button:hover {
+  background-color: rgb(104, 104, 255);
+  color: white;
+  transform: scale(1.2, 1.2);
+}
+
+.button {
+  background-color: rgb(240, 240, 240);
+  border-radius: 30px;
+  color: black;
+  outline: none;
+  border: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+.button .link {
+  text-decoration: none;
+  color: inherit;
+}
+.sekcija {
+  font-family: Arial, sans-serif;
+  color: rgb(77, 77, 77);
+}
+
+.header {
+  font-size: 28px;
+  margin: 100px 60px 20px 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#aboutimg {
+  margin-right: 80px;
+  margin-top: 20px;
+}
+
+#apielist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  list-style: square;
+}
+#apie_aprasymas {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.resume-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+#resumeimg {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.resume-details {
+  margin-left: 20px;
+}
+.portfoliodarbai {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  list-style: square;
+  padding: 30px;
+}
+.portfoliodarbai img {
+  margin: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#portfoliocom {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.paslaugos-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 320px;
+}
+ #muzika {
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
