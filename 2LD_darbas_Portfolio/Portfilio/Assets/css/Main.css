@@ -1,7 +1,35 @@
+body, html {
+  height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(235, 235, 235, 0.856), rgba(255, 255, 255, 0.842)), url("/2LD_darbas_Portfolio/Portfilio/Assets/Pictures/Portfolio/breakdance.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  font-size: 36px;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: rgb(77, 77, 77);
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: #0563bb;
+}
 #navbar {
   position: fixed;
-  top: 200px;
-  background-color: rgb(236, 236, 236);
+  top: 150px;
   padding: 30px 0px 30px 0px;
   border-radius: 30px;
 }
@@ -18,40 +46,59 @@
 }
 
 .button {
-  background-color: rgb(240, 240, 240);
-  border-radius: 30px;
-  color: black;
-  outline: none;
+  background-color: rgb(236, 236, 236);
+  border-radius: 50%;
   border: none;
+  color: black;
   margin: 5px;
-  padding: 10px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+}
+#apie_aprasymas{
+  margin: 0 120px 0 120px;
+  text-align: center;
+}
+.about_list {
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
 }
 
-.button .link {
-  text-decoration: none;
-  color: inherit;
+.about_list:before {
+  content: "\003E";
+  font-size: 15px;
+  position: relative;
+  left: -15px;
+  color: rgb(75, 165, 218);
 }
+
 .sekcija {
-  font-family: Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: rgb(77, 77, 77);
 }
 
 .header {
   font-size: 28px;
-  margin: 100px 60px 20px 60px;
-  border-radius: 20px;
+  margin: 60px 60px 20px 60px;
   display: flex;
   justify-content: center;
-  background-color: rgb(241, 241, 241);
+  font-family: "Raleway", sans-serif;
+  text-underline-position: below;
 }
 
 .content-wrapper {
   display: flex;
-  justify-content: center;
+  margin-left: 150px;
 }
 
 #aboutimg {
-  margin-right: 80px;
+  margin-right: 60px;
   margin-top: 20px;
 }
 
@@ -61,6 +108,7 @@
   justify-content: center;
   text-align: left;
   list-style: square;
+  margin-right: 160px;
 }
 #apie_aprasymas {
   display: flex;
@@ -69,19 +117,90 @@
   font-size: 18px;
   font-weight: 400;
 }
+#listvidus{
+  display: flex;
+  flex-direction: row;
+}
 
 .resume-wrapper {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
+  margin-left: 200px;
+  
 }
-#resumeimg {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.resume-details {
+#resume-detales {
+  position: relative;
   margin-left: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent transparent transparent #0563bb;
+}
+#resume-detales::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: -10px; 
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0563bb;
+  background-color: rgb(255, 255, 255); 
+  
+}
+#resume-detales::after {
+  content: '';
+  position: absolute;
+  top: 95px;
+  left: -10px; 
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0563bb;
+  background-color: rgb(255, 255, 255); 
+  
+}
+#resume-detales2 {
+  position: relative;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent transparent transparent #0563bb;
+}
+#resume-detales2::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: -10px; 
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0563bb;
+  background-color: rgb(255, 255, 255); 
+  
+}
+#resgead{
+  margin-left: 220px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 715px;
+
+
+}
+.res_list_head{
+  color: #0563bb;
+  font-family:"Open Sans", sans-serif;
+}
+.resume_metai{
+  margin-right: 450px;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 5px 10px 5px 10px;
+  
 }
 .portfoliodarbai {
   display: flex;
@@ -116,12 +235,71 @@
   text-align: center;
   max-width: 320px;
 }
- #muzika {
+#muzika {
   margin-top: 30px;
   justify-content: center;
   display: flex;
   text-align: center;
 }
-#printas{
+#printas {
   float: right;
+  height: 50px;
+  width: 50px;
+ 
+}
+.header h2{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+.header h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.header h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 120px;
+  color: #333;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info {
+  font-size: 14px;
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.icon-link {
+  margin-right: 10px;
+  text-decoration: none;
 }
