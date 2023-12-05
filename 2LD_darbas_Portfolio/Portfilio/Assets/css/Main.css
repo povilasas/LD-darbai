@@ -1,9 +1,14 @@
-body, html {
+body,
+html {
   height: 100%;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(235, 235, 235, 0.856), rgba(255, 255, 255, 0.842)), url("/2LD_darbas_Portfolio/Portfilio/Assets/Pictures/Portfolio/breakdance.png");
+  background-image: linear-gradient(
+      rgba(235, 235, 235, 0.856),
+      rgba(255, 255, 255, 0.842)
+    ),
+    url("../Pictures/Portfolio/breakdance.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,11 +25,11 @@ body, html {
   transform: translate(-50%, -50%);
   color: rgb(77, 77, 77);
 }
-a{
+a {
   color: black;
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: #0563bb;
 }
 #navbar {
@@ -60,7 +65,7 @@ a:hover{
   font-size: 11px;
   font-family: "Open Sans", sans-serif;
 }
-#apie_aprasymas{
+#apie_aprasymas {
   margin: 0 120px 0 120px;
   text-align: center;
 }
@@ -117,7 +122,7 @@ a:hover{
   font-size: 18px;
   font-weight: 400;
 }
-#listvidus{
+#listvidus {
   display: flex;
   flex-direction: row;
 }
@@ -125,7 +130,6 @@ a:hover{
 .resume-wrapper {
   display: flex;
   margin-left: 200px;
-  
 }
 #resume-detales {
   position: relative;
@@ -135,32 +139,30 @@ a:hover{
   border-color: transparent transparent transparent #0563bb;
 }
 #resume-detales::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -40px;
-  left: -10px; 
+  left: -10px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
   border-width: 2px;
   border-style: solid;
   border-color: #0563bb;
-  background-color: rgb(255, 255, 255); 
-  
+  background-color: rgb(255, 255, 255);
 }
 #resume-detales::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 95px;
-  left: -10px; 
+  left: -10px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
   border-width: 2px;
   border-style: solid;
   border-color: #0563bb;
-  background-color: rgb(255, 255, 255); 
-  
+  background-color: rgb(255, 255, 255);
 }
 #resume-detales2 {
   position: relative;
@@ -170,37 +172,33 @@ a:hover{
   border-color: transparent transparent transparent #0563bb;
 }
 #resume-detales2::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -40px;
-  left: -10px; 
+  left: -10px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
   border-width: 2px;
   border-style: solid;
   border-color: #0563bb;
-  background-color: rgb(255, 255, 255); 
-  
+  background-color: rgb(255, 255, 255);
 }
-#resgead{
+#resgead {
   margin-left: 220px;
   display: flex;
   justify-content: space-between;
   max-width: 715px;
-
-
 }
-.res_list_head{
+.res_list_head {
   color: #0563bb;
-  font-family:"Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-.resume_metai{
+.resume_metai {
   margin-right: 450px;
   text-align: center;
   background-color: #f0f0f0;
   padding: 5px 10px 5px 10px;
-  
 }
 .portfoliodarbai {
   display: flex;
@@ -245,9 +243,8 @@ a:hover{
   float: right;
   height: 50px;
   width: 50px;
- 
 }
-.header h2{
+.header h2 {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;

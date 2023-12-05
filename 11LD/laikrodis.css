@@ -1,0 +1,14 @@
+.laikrodis {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 60px;
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+  margin: 0px 400px 0px 400px;
+  border-radius: 5px;
+  border-style: double;
+  border-color: rgb(144, 144, 144);
+  font-family: "Orbitron", sans-serif;
+  border-radius: 30px;
+}
