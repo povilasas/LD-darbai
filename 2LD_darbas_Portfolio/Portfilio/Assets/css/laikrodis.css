@@ -12,3 +12,9 @@
   font-family: "Orbitron", sans-serif;
   border-radius: 30px;
 }
+.svg{
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 200px 0px;
+
+}

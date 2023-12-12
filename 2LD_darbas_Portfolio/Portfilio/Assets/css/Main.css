@@ -300,3 +300,7 @@ a:hover {
   margin-right: 10px;
   text-decoration: none;
 }
+.forma{
+  display: flex;
+  justify-content: center;
+}
